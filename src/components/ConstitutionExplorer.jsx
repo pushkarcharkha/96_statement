@@ -31,14 +31,17 @@ export default function ConstitutionExplorer({ onAddToCollection, collectionItem
       audioEngine.stopSpeech();
       setIsSpeaking(false);
     } else {
+      audioEngine.unlockAudio();
       const explainerText = article.plainExplainer[language] || article.plainExplainer.en;
-      setIsSpeaking(true);
-      audioEngine.speakText(
-        explainerText,
-        language,
-        () => setIsSpeaking(true),
-        () => setIsSpeaking(false)
-      );
+      setTimeout(() => {
+        setIsSpeaking(true);
+        audioEngine.speakText(
+          explainerText,
+          language,
+          () => setIsSpeaking(true),
+          () => setIsSpeaking(false)
+        );
+      }, 150);
     }
   };
 
