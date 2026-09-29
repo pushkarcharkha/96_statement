@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-heading: 'Playfair Display', serif;
+    --font-sans: 'Inter', 'Noto Sans Devanagari', sans-serif;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  body {
+    background-color: #F8FAFC;
+    color: #0F172A;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* High contrast mode */
+  body.high-contrast {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+  }
+  
+  body.high-contrast * {
+    border-color: #F59E0B !important;
+  }
+
+  body.high-contrast .bg-white,
+  body.high-contrast .bg-slate-50,
+  body.high-contrast .bg-slate-100 {
+    background-color: #0B0F19 !important;
+    color: #FFFFFF !important;
+  }
+
+  body.high-contrast .text-slate-600,
+  body.high-contrast .text-slate-500,
+  body.high-contrast .text-slate-400 {
+    color: #E2E8F0 !important;
+  }
+}
+
+/* Touch friendly minimums */
+.touch-target {
+  min-height: 56px;
+  min-width: 56px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Blue Duotone Filter */
+.duotone-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.duotone-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(11, 31, 92, 0.92) 0%, rgba(30, 58, 138, 0.78) 50%, rgba(37, 99, 235, 0.6) 100%);
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+/* Custom Archival Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(11, 31, 92, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E3A8A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0B1F5C;
+}
+
+/* Paper grain texture effect */
+.archival-paper {
+  background-color: #FCFBF7;
+  background-image: radial-gradient(#E5DFD3 0.75px, transparent 0.75px);
+  background-size: 16px 16px;
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-panel-dark {
+  background: rgba(11, 31, 92, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Print styling for My Collection reading list */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

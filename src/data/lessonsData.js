@@ -1,0 +1,53 @@
+export const lessonsData = [
+  {
+    id: "educate",
+    pillar: "Educate",
+    pillarDevanagari: "शिक्षित बनो / शिका",
+    icon: "GraduationCap",
+    themeColor: "from-blue-700 to-indigo-900",
+    accentColor: "#2563EB",
+    quote: "Cultivation of mind should be the ultimate aim of human existence.",
+    quoteSource: "All-India Depressed Classes Conference, Nagpur (20 July 1942)",
+    context: "Babasaheb believed education was not merely a tool for employment, but an emancipatory weapon of the mind. In traditional society, knowledge was monopolized to perpetuate hierarchy. For Babasaheb, self-study, scientific temper, and rigorous critical thinking break the chains of mental slavery.",
+    contextHi: "बाबासाहेब का मानना था कि शिक्षा केवल आजीविका का साधन नहीं, बल्कि मस्तिष्क की मुक्ति का अमोघ अस्त्र है। पारंपरिक व्यवस्था में ज्ञान पर एकाधिकार था। बाबासाहेब के अनुसार स्वाध्याय, वैज्ञानिक दृष्टिकोण और आलोचनात्मक चिंतन ही मानसिक गुलामी की बेड़ियों को काटते हैं।",
+    contextMr: "शिक्षण हे केवळ उपजीविकेचे साधन नसून मानवी मनाच्या मुक्तीचे प्रभावी शस्त्र आहे असा बाबासाहेबांचा ठाम विश्वास होता. शिक्षणाने माणसाला स्वतःच्या अस्तित्वाची आणि स्वाभिमानाची जाणीव होते, ज्यामुळे तो अन्यायाविरुद्ध आवाज उठवण्यास सक्षम होतो.",
+    modernApplication: "In our digital era, 'Educate' means developing digital literacy, mastering data and STEM disciplines, questioning misinformation, and ensuring quality education reaches the most remote child in our country.",
+    modernApplicationHi: "आज के डिजिटल युग में 'शिक्षित बनो' का अर्थ है तकनीकी और वैज्ञानिक शिक्षा हासिल करना, भ्रामक सूचनाओं पर सवाल उठाना और यह सुनिश्चित करना कि उत्कृष्ट ज्ञान देश के अंतिम बच्चे तक पहुँचे।",
+    modernApplicationMr: "आजच्या डिजिटल युगात 'शिका' या सूत्राचा अर्थ असा की आपण आधुनिक तंत्रज्ञान, संशोधन आणि विज्ञानात पारंगत झाले पाहिजे आणि कोणत्याही अफवा किंवा अंधश्रद्धेला बळी न पडता विवेकवादी विचार केला पाहिजे.",
+    reflectionQuestion: "What new domain of knowledge or skill will you commit to mastering this month to uplift those around you?"
+  },
+  {
+    id: "agitate",
+    pillar: "Agitate",
+    pillarDevanagari: "संघर्ष करो / संघर्ष करा",
+    icon: "Flame",
+    themeColor: "from-amber-600 to-red-900",
+    accentColor: "#D97706",
+    quote: "My final words of advice to you are: educate, agitate and organize; have faith in yourselves. With justice on our side, I do not see how we can lose our battle.",
+    quoteSource: "Presidential Address, All-India Depressed Classes Conference (1942)",
+    context: "'Agitate' in Babasaheb's philosophy never meant violence or lawlessness. It meant moral awakening, civic perturbation, and the refusal to quietly tolerate injustice. It meant stirring the conscience of society through peaceful constitutional demonstrations, intellectual debate, and unwavering moral courage.",
+    contextHi: "बाबासाहेब के दर्शन में 'संघर्ष करो' (एजिटेट) का अर्थ कभी भी हिंसा या अराजकता नहीं था। इसका अर्थ था समाज की सोई हुई चेतना को झकझोरना, अन्याय के प्रति मौन न रहना और संवैधानिक, शांतिपूर्ण तरीकों से अपने अधिकारों की रक्षा हेतु निरंतर नैतिक साहस दिखाना।",
+    contextMr: "बाबासाहेबांच्या तत्त्वज्ञानात 'संघर्ष करा' म्हणजे कधीही हिंसा नव्हे. तर याचा अर्थ अन्यायाविरुद्ध आवाज उठवणे, आपल्या हक्कांची जाणीव ठेवून व्यवस्थेला जाब विचारणे आणि घटनात्मक मार्गाने स्वाभिमानाची लढाई लढणे हा आहे.",
+    modernApplication: "Today, 'Agitate' means standing up for ethical governance, demanding environmental accountability, speaking out against cyber-bullying and discrimination, and exercising your constitutional right to vote and question power.",
+    modernApplicationHi: "आज 'संघर्ष करो' का अर्थ है नैतिक शासन की मांग करना, पर्यावरण और समानता के लिए आवाज उठाना और मतदान के माध्यम से संवैधानिक जवाबदेही तय करना।",
+    modernApplicationMr: "आजच्या काळात याचा अर्थ संविधानाने दिलेल्या मार्गांनी पारदर्शक कारभाराची मागणी करणे, सामाजिक विषमता व भेदभावाविरुद्ध उभे राहणे आणि लोकशाही मूल्यांचे रक्षण करणे हा आहे.",
+    reflectionQuestion: "Where do you witness quiet unfairness in daily life, and how can you peacefully advocate for fairness?"
+  },
+  {
+    id: "organize",
+    pillar: "Organize",
+    pillarDevanagari: "संगठित रहो / संघटित व्हा",
+    icon: "Users",
+    themeColor: "from-blue-900 to-cyan-900",
+    accentColor: "#0B1F5C",
+    quote: "Lost rights are never regained by appeals to the conscience of the usurpers, but by relentless struggle and organized solidarity.",
+    quoteSource: "Bahishkrit Hitakarini Sabha Manifesto (1924)",
+    context: "Isolated individuals, no matter how brilliant, can be easily suppressed. Babasaheb established unions, newspapers, educational societies (People's Education Society), and political parties because disciplined organization creates enduring democratic power.",
+    contextHi: "अकेले व्यक्ति चाहे कितने भी प्रतिभाशाली हों, उन्हें आसानी से दबाया जा सकता है। बाबासाहेब ने पुस्तकालय, शिक्षण संस्थाएं (पीपुल्स एजुकेशन सोसाइटी) और दल गठित किए क्योंकि संगठित शक्ति ही लोकतांत्रिक समाज का वास्तविक आधार है।",
+    contextMr: "एकटा माणूस कितीही कर्तृत्ववान असला तरी त्याला दडपले जाऊ शकते. बाबासाहेबांनी शिक्षण संस्था, वृत्तपत्रे आणि संघटना उभारल्या, कारण शिस्तबद्ध आणि संघटित ताकदच समाजात शाश्वत परिवर्तन घडवून आणू शकते.",
+    modernApplication: "Modern 'Organization' is seen in civic community groups, collaborative open-source knowledge repositories, student unions, and mutual-aid networks that transcend caste, creed, and regional barriers to build national fraternity.",
+    modernApplicationHi: "आज 'संगठित रहो' का अर्थ है नागरिक समूहों, सहयोगात्मक नवाचार और आपसी सहयोग तंत्रों को मजबूत करना जो जाति और क्षेत्रीय बंधनों से ऊपर उठकर राष्ट्रीय बंधुत्व का निर्माण करें।",
+    modernApplicationMr: "आजच्या युगात संघटना म्हणजे सर्व प्रकारच्या भेदभावापलीकडे जाऊन लोककल्याणासाठी एकत्र येणे, सामाजिक व शैक्षणिक संस्था बळकट करणे आणि बंधुभावाची जोपासना करणे होय.",
+    reflectionQuestion: "How are you building bridges across differences in your community, school, or workplace today?"
+  }
+];
